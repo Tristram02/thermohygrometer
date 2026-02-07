@@ -1,10 +1,10 @@
-# 🌡️ Arduino Temperature & Humidity Monitor (LCD + DHT11)
+# Arduino Temperature & Humidity Monitor (LCD + DHT11)
 
 This project uses an **Arduino Uno**, a **DHT11 sensor**, and a **16x2 LCD display** to measure and display the **temperature** and **humidity** in a room.  
 
 ---
 
-## 🧩 Components Used
+## Components Used
 
 | Component        | Quantity | Description |
 |------------------|-----------|-------------|
@@ -17,7 +17,7 @@ This project uses an **Arduino Uno**, a **DHT11 sensor**, and a **16x2 LCD displ
 
 ---
 
-## ⚡ Circuit Diagram
+## Circuit Diagram
 
 Below is the circuit diagram showing how to connect the DHT11 and LCD to the Arduino:
 
@@ -25,14 +25,14 @@ Below is the circuit diagram showing how to connect the DHT11 and LCD to the Ard
 
 ### Wiring Overview
 
-#### 🧱 DHT11 Sensor
+#### DHT11 Sensor
 | DHT11 Pin | Arduino Pin |
 |------------|-------------|
 | VCC        | 5V          |
 | GND        | GND         |
 | DATA       | Digital Pin **2** |
 
-#### 💡 LCD 16x2 Display (in 4-bit mode)
+#### LCD 16x2 Display (in 4-bit mode)
 | LCD Pin | Arduino Pin | Description |
 |----------|--------------|-------------|
 | VSS      | GND          | Ground |
@@ -50,7 +50,7 @@ Below is the circuit diagram showing how to connect the DHT11 and LCD to the Ard
 
 ---
 
-## 💻 Code Overview
+## Code Overview
 
 ### Features
 - Reads temperature and humidity using the **DHT11 sensor**.
